@@ -1,0 +1,33 @@
+.not-just-one {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 1rem; }
+  .not-just-one select {
+    width: 100%;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    border: none;
+    outline: none; }
+  .not-just-one .graphicalElem {
+    width: 100%;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    text-align: left;
+    border: none;
+    outline: none;
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    box-sizing: border-box;
+    padding-left: 0.5rem; }
+    .not-just-one .graphicalElem:hover {
+      cursor: pointer;
+      background-color: lightgray; }
+
+/*# sourceMappingURL=notjustone.css.map */

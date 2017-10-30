@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+	    rel='stylesheet'
+	    type='text/css'
+	    href='notjustone.css'/>
+
+        <script type='text/javascript' src='notjustone.js'></script>
+	
+	    <meta charset='UTF-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        body #component-container {
+            width: 300px;
+            min-height: 250px;
+            box-sizing: border-box;
+            padding: 2rem;
+        }
+    </style>
+
+    </head>
+    <body>
+        <div id='component-container'>
+
+            <!-- the actual component -->
+            <div id='multiselect'>
+                <select>
+                    <option value='0'>Potato</option>
+                    <option value='1'>Salad</option>
+                    <option value='2'>Cucumber</option>
+                    <option value='3'>Carrot</option>
+                </select>
+            <div>
+            <!-- end of comnponent -->
+
+        </div>
+
+        <script>
+            var notjustone = new NotJustOne(document.getElementById('multiselect'));
+            
+            /* selected items by default.
+            /* (could for example be fetched from database */
+            notjustone.values.push({'value': '0'});
+            notjustone.values.push({'value': '2'});
+
+            notjustone.init();
+        </script>
+    </body>
+</html>
+
