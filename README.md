@@ -1,9 +1,8 @@
 # Not Just One
 > HTML item selector that supports multiple items.
 
-> <i>Built in Gothenburg using coffee, love and Vanilla Javascript</i>
-
 > ![gif.gif](gif.gif)
+> <i>Built in Gothenburg using coffee, love and Vanilla Javascript</i>
 
 ## Example:
 > How to implement and use:
